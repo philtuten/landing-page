@@ -1,0 +1,30 @@
+.body {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    height: 72px;
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #f9faf8;
+    padding: 32px;
+}
+
+.header-links {
+    padding: 16px;
+    margin: 32px;
+    display: flex;
+    gap: 32px;
+}
+
+a {
+    text-decoration: none;
+    color: #f9faf8
+}
